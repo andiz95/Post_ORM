@@ -9,8 +9,7 @@ module.exports = {
       //   type: Sequelize.INTEGER
       // },
       // id: {
-      //   type: Sequelize.INTEGER,
-      //   primaryKey: true
+      //   type: Sequelize.INTEGER
       // },
       isbn: {
         type: Sequelize.STRING

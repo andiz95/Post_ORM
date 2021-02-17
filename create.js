@@ -1,6 +1,6 @@
-const{ Book} = require('./models')
+const{ Books} = require('./models')
 
-Book.create({
+Books.create({
     id: 1,
     isbn: 'B20-222-11',
     judul:'Belajar Postgre YUKK',
