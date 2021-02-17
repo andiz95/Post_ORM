@@ -1,9 +1,9 @@
-const{Book} = require('./models')
+const{Books} = require('./models')
 
 const query={
     where: { id:1}
 }
-Book.update({
+Books.update({
     genre:'Makanan'
 },query)
 .then(() =>{

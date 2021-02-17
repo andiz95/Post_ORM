@@ -1,8 +1,8 @@
-const{ Book} = require('./models')
+const{ Books} = require('./models')
 
-Book.destroy({
+Books.destroy({
     where:{
-        genre:'Makanan'
+        id:2
     }
 })
-.then(()=> console.log("Buku dengan id 1 berhasil di hapus"))
+.then(()=> console.log("Buku dengan id 2 berhasil di hapus"))
